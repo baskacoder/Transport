@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical" MembersFormat="NameAndType">
+  <Class Name="Transport" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAIAACAAAAAQAAAABAAQgAAAAAAAAAAA=</HashCode>
+      <FileName>Transport.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Train" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAACAAAAAAAAAABQAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Train.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car" Collapsed="true">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAQAAACACAAAAAAEAAABAAAABAAAAAAAAAI=</HashCode>
+      <FileName>Car.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SabWay" Collapsed="true">
+    <Position X="5.5" Y="2.25" Width="1.5" />
+    <InheritanceLine Type="Transport" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="1.062" />
+        <Point X="4.75" Y="1.875" />
+        <Point X="5.875" Y="1.875" />
+        <Point X="5.875" Y="2.25" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.079" Y="0.05" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAACAAABAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SabWay.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bus" Collapsed="true">
+    <Position X="8" Y="2.25" Width="1.5" />
+    <InheritanceLine Type="Transport" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="4.75" Y="1.062" />
+        <Point X="4.75" Y="1.875" />
+        <Point X="8.75" Y="1.875" />
+        <Point X="8.75" Y="2.25" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.05" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAEBACAAAAAAAIAABAAAAAAAAABAAAAI=</HashCode>
+      <FileName>Bus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="New_car" Collapsed="true">
+    <Position X="10" Y="2.25" Width="1.5" />
+    <InheritanceLine Type="Transport" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="1.062" />
+        <Point X="4.75" Y="1.875" />
+        <Point X="10.812" Y="1.875" />
+        <Point X="10.812" Y="2.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAEAAAAgAAAAAgAA=</HashCode>
+      <FileName>New_car.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="segment">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAtgOBAAA=</HashCode>
+      <FileName>Car.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="body_type">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAACAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Car.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="obivka">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Car.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Place" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Train.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
